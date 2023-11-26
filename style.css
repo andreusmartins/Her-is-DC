@@ -1,0 +1,172 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* Your existing code for .tempetade, .container-tempestade, and other similar elements */
+
+@media screen and (min-width: 991px) {
+    .tempetade,
+    .Wolverine,
+    .Magneto,
+    .Xavier {
+        width: 16rem;
+        transition: all .2s ease-in-out;
+      
+    }
+
+    .container-tempestade,
+    .container-Wolverine,
+    .container-Magneto,
+    .container-Xavier {
+        width: 18rem;echo "# Her-is-DC" >> README.md
+  git init
+  git adicionar README.md
+  git commit - m "primeiro commit"
+  ramo Git -M principal
+  git remoto adicionar origem https://github.com/andreusmartins/Her-is-DC.git
+  git push -u origem principal
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .Herois {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .teste {
+   align-items: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-wrap: wrap;
+    }
+
+.img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+}
+.container-tempestade {
+    width: 16rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transition: all .2s ease-in-out;
+}
+
+/* .container-tempestade:hover {
+    background-image: url("https://i.pinimg.com/236x/cd/84/18/cd8418d2d0e2b1df4f0144ac6e119880.jpg");
+    transition: all 0.80s;
+} */
+
+.Btn-Efeito {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.Btn-Efeito:hover {
+    background-color: blue;
+    transition: all 0.80s;
+    text-decoration: none;
+    color: white;
+}
+
+.container-Wolverine {
+    width: 16rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transition: all .2s ease-in-out;
+}
+
+/* .container-Wolverine:hover {
+    background-image: url("https://i.pinimg.com/236x/cd/84/18/cd8418d2d0e2b1df4f0144ac6e119880.jpg");
+    transition: all 0.80s;
+} */
+
+.container-Magneto {
+    width: 16rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transition: all 0.80s;
+}
+
+/* .container-Magneto:hover {
+    background-image: url("https://i.pinimg.com/564x/1c/ed/40/1ced40963794fb9e4891b5549500e335.jpg");
+    transition: all 0.80s;
+} */
+
+.container-Xavier {
+    width: 16rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transition: all .2s ease-in-out;
+}
+
+/* .container-Xavier:hover {
+    background-image: url("https://i.pinimg.com/564x/e4/0c/59/e40c597bac9dc2a9f05f519313dcc0d7.jpg");
+    transition: all 0.80s;
+} */
+
+.Herois {   
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7rem;
+    /* margin-bottom: auto; */
+}
+
+.info-Horoi-T,
+.info-Horoi-W,
+.info-Horoi-M,
+.info-Horoi-X {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+.card-img-top{
+    height: 24rem;
+    width: 16rem;
+}
+
+.teste {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+
+.sobre-T {
+    opacity: 0.9;
+    color: black;
+    font-size: larger;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 75rem;
+    margin: 10px;
+    background-color: #F0FFFF;
+}
+
+.container-descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
